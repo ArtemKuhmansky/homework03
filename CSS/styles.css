@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;1,500&display=swap");
+nav ul {
+  text-align: center;
+  margin-top: 30px;
+  /* margin-left: 280px;
+  margin-right: 300px; */
+}
+.list_item {
+  display: inline-block;
+  color: #626262;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: uppercase;
+  /* padding-right: 100px;
+  padding-left: 100px; */
+  margin: 0px 6%;
+  text-align: center;
+}
+.container {
+  text-align: center;
+}
+section {
+  /*background-color: silver;*/
+  width: 420px;
+  display: inline-block;
+  text-align: justify;
+  margin: 0px 5% 65px 5%;
+}
+/* ul {
+    padding-inline-start: 0px;
+    padding-inline-end: 0px; */
+
+li > a:hover {
+  color: deepskyblue;
+}
+.image1 {
+  margin-top: 40px;
+  /*margin-left: 160px;*/
+  width: 100%;
+}
+.head1 {
+  /* padding-left: 160px; */
+  display: inline-block;
+  color: #b4ad9e;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  padding-bottom: 0px;
+  padding-top: 30px;
+  font-family: "Ubuntu", sans-serif;
+}
+.head2 {
+  display: block;
+  /* padding-left: 160px; */
+  color: gray;
+  font-family: serif;
+  font-weight: 100;
+  margin-top: 20px;
+  margin-bottom: 3px;
+  font-family: "Playfair Display", serif;
+}
+.text1 {
+  display: block;
+  /* padding-left: 160px; */
+  margin-top: 4px;
+  color: gray;
+  padding-top: 30px;
+  font-family: "Playfair Display", serif;
+}
+/* .image2 {
+  display: inline-block;
+  overflow: hidden;
+  
+} */
+li {
+  display: contents;
+}
+.image2 {
+  width: 421px;
+  height: auto;
+  transform: translateY(-43%);
+}
+.image_div {
+  width: 421px;
+  height: 281px;
+  overflow: hidden;
+}
+.header {
+  margin-top: 67px;
+  margin-bottom: 30px;
+}
+
+.button {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 24px 32px;
+  background-color: white;
+  color: gray;
+  border: 1px solid gray;
+  font-family: "Playfair Display", serif;
+}
+section :nth-child(2n + 2) {
+  margin-right: 0px;
+}
+.footer {
+  text-align: center;
+  margin-bottom: 70px;
+}
+.button:hover {
+  color: aqua;
+  cursor: pointer;
+}
